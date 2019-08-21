@@ -14,7 +14,7 @@ function encode(offset,inputEncode) {
 
   for (let i= 0; i < inputEncode.length; i++) {
     messageForInput = inputEncode[i].charCodeAt();
-    messageCharCode = ((messageForInput - 32 + offset) % 108 + 32);
+    messageCharCode = ((messageForInput - 32 + offset) % 108) + 32;
     resultEncode += String.fromCharCode(messageCharCode);
   }
   return resultEncode ;
@@ -29,7 +29,7 @@ function decode(offset,inputDecode) {
 
   for (let i = 0; i < inputDecode.length; i++) {
     messageForInputDecode = inputDecode[i].charCodeAt();
-    messageCharCode = ((messageForInputDecode - 32 - offset) % 108 + 32);
+    messageCharCode = ((messageForInputDecode - 32 - offset) % 108) + 32;
     resultDecode += String.fromCharCode(messageCharCode);
   }
 
