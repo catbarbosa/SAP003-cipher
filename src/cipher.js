@@ -6,32 +6,29 @@ window.cipher = {
   encode: encode,
   decode: decode
 };
-// encoda a mensagem com o descol
-function encode(offset,inputEncode) {
-  let messageForInput;
-  let messageCharCode;
-  let resultEncode;
 
-  for (let i= 0; i < inputEncode.length; i++) {
-    messageForInput = inputEncode[i].charCodeAt();
-    messageCharCode = ((messageForInput - 32 + offset) % 108) + 32;
+// encoda a mensagem com o descol
+function encode(offset, inputEncode) {
+  let resultEncode = "";
+
+  for (let i = 0; i < inputEncode.length; i++) {
+    let messageForInput = inputEncode[i].charCodeAt();
+    let messageCharCode = ((messageForInput - 32 + offset) % 95) + 32;
     resultEncode += String.fromCharCode(messageCharCode);
   }
-  return resultEncode ;
 
+  return resultEncode;
 }
 
 // desencoda a mensagem com o descol
-function decode(offset,inputDecode) {
-  let messageForInputDecode;
-  let messageCharCode;
-  let resultDecode;
+function decode(offset, inputDecode) {
+  let resultDecode = "";
 
   for (let i = 0; i < inputDecode.length; i++) {
-    messageForInputDecode = inputDecode[i].charCodeAt();
-    messageCharCode = ((messageForInputDecode - 32 - offset) % 108) + 32;
+    let messageForInputDecode = inputDecode[i].charCodeAt();
+    let messageCharCode = ((messageForInputDecode - 32 - offset) % 95) + 32;
     resultDecode += String.fromCharCode(messageCharCode);
   }
 
-  return resultDecode ;
+  return resultDecode;
 }
