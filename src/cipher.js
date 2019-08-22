@@ -13,7 +13,7 @@ function encode(offset, inputEncode) {
 
   for (let i = 0; i < inputEncode.length; i++) {
     let messageForInput = inputEncode[i].charCodeAt();
-    let messageCharCode = ((messageForInput - 32 + offset) % 205) + 32;
+    let messageCharCode = ((messageForInput - 65 + offset) % 26) + 65;
     resultEncode += String.fromCharCode(messageCharCode);
   }
 
@@ -26,7 +26,7 @@ function decode(offset, inputDecode) {
 
   for (let i = 0; i < inputDecode.length; i++) {
     let messageForInputDecode = inputDecode[i].charCodeAt();
-    let messageCharCode = ((messageForInputDecode - 32 - offset) % 205) + 32;
+    let messageCharCode = ((messageForInputDecode - 90 - offset) % 26) + 90;
     resultDecode += String.fromCharCode(messageCharCode);
   }
 
