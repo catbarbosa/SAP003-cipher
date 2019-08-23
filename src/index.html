@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Ajude-a</h1>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ajude-a</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header> <img src="images/logoAjude-a.png" alt="lodo de Ajude-a" /></header>
+  <main>
+    <div class="tab active">
+      <h1>Sobre</h1>
+      <p>A violência, as vezes, vêm de onde menos se espera, da pessoa que amamos, dos nossos companheiros, daquele que
+        escolhemos tê-los do lado. A dor é grande nesse momento, não queremos acreditar que isso aconteceu conosco, mas
+        não precisamos ter vergonha, se esconder. Precisamos buscar ajuda, com a família, com amigos e com a polícia,
+        pois violência doméstica é crime e se enquadra na lei Maria da Penha.
+        Falar parece muito fácil, mas enfrentar esse momento sozinha pode torná-lo ainda mais difícil, e foi pensando
+        nisso que o Ajude-a foi criado.
+        Ajude-a tem o objetivo te ajudá-la enviando uma mensagem de texto para uma amiga da sua escolha, que receberá
+        uma mensagem criptografada e uma chave para descifrá-la, tornando assim uma mensagem secreta que só sua amiga
+        ira consegui lê-la.
+        Procure ajuda, você não está só.</p>
     </div>
-    <form id="ciphetForm">
-      <label>Chave: <input type="number" placeholder="Digite o deslocamento" id="offset"/></label><br>
-      <label> Mensagem: <input type="text" placeholder="Digite o seu texto" id="inputEncode"/><br></label><br>
-      <input type="button" value="Enviar" id="btn-enviarCode"/>
-    </form><br>
-    <div id="resultEncode"></div>
-    <form id="decipheredForm">
-      <label>Decifrar sua mensagem:<input type ="text" placeholder="Digite aqui sua mensagem cifrada" id="inputDecode"/><br></label><br>
-      <input type="button" value="Enviar" id="btn-enviarDecode"/>
+    <div class="tab">
+      <form id="ciphetForm">
+        <h1>Cifrar</h1>
+       <label>Telefone: <input type="number" placeholder="Digite o número da mensagem" id="telefoneNumber"/><br /> </label>
+        <label>Chave:
+          <input type="number" placeholder="Digite o deslocamento" id="offsetEncode" /> </label><br />
+        <label>
+          Mensagem:
+          <input type="text" placeholder="Digite o seu texto" id="inputEncode" /><br /></label><br />
+        <input type="button" value="Enviar" id="btn-enviarCode" />
+        <br />
+      </form>
+      <div id="resultEncode"></div><br />
+    </div><br />
+    <div class="tab">
+      <form id="decipheredForm">
+        <h1>Decifrar</h1>
+        <label>Chave:
+          <input type="number" placeholder="Digite o deslocamento" id="offsetDecode" /> </label><br />
+        <label>
+          <label>Decifrar sua mensagem:<input type="text" placeholder="Digite aqui sua mensagem cifrada"
+              id="inputDecode" /><br /></label><br />
+          <input type="button" value="Enviar" id="btn-enviarDecode" />
+      </form>
       <div id="resultDecode"></div>
-    </form>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    </div>
+  </main>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
