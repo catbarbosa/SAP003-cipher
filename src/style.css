@@ -14,11 +14,11 @@
   margin: 0 auto;
   text-align: center;
   font-family: 'Pacifico', cursive;
+  font-weight: 100;
   -moz-box-shadow: 5px 5px 5px 5px #777777;
   -webkit-box-shadow: 5px 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px #777777;
   background-color: #FEEAFD;
-
 }
 .tab{
   border: 2px solid #E8CAD7;
@@ -30,6 +30,5 @@
   -webkit-box-shadow: 5px 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px #777777;
   background-color: #FEEAFD;
-
 }
 
