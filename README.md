@@ -2,14 +2,14 @@
 
 ## Índice
 
-[1. Prefácio](#1-prefácio)
-[2. Resumo do projeto](#2-resumo-do-projeto)
-[3. Linguagem utilizada](#3-linguagem-utilizada)
-[4.Considerações Finais](#5-considerações-finais)
+* [1. Prefácio](#1-prefácio)
+* [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Linguagem utilizada](#3-linguagem-utilizada)
+* [4.Considerações Finais](#5-considerações-finais)
 
 ***
 
-## Prefácio
+## 1. Prefácio
 
 A [Cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
 tipos de criptografias conhecidas na história. O imperador romano Júlio César
