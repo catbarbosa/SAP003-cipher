@@ -6,7 +6,7 @@
   -moz-box-shadow: 5px 5px 5px 5px #777777;
   -webkit-box-shadow: 5px 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px #777777;
-  background-color:#FDF6EE;
+  background-color:#F2F2F2;
 }
 .tab-active{
   border: 2px solid #E8CAD7 ;
@@ -18,7 +18,7 @@
   -moz-box-shadow: 5px 5px 5px 5px #777777;
   -webkit-box-shadow: 5px 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px #777777;
-  background-color: #FEEAFD;
+  background-color: #F2F2F2;
 }
 .tab{
   border: 2px solid #E8CAD7;
@@ -29,6 +29,6 @@
   -moz-box-shadow: 5px 5px 5px 5px #777777;
   -webkit-box-shadow: 5px 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px #777777;
-  background-color: #FEEAFD;
+  background-color: #F2F2F2;
 }
 
