@@ -1,11 +1,11 @@
-#Ajude-a
+# Liberte-se
 
 ## Índice
 
-*[1. Prefácio](#1-prefácio)
-*[2. Resumo do projeto](#2-resumo-do-projeto)
-*[3. Linguagem utilizada](#3-linguagem-utilizada)
-*[4.Considerações Finais](#5-considerações-finais)
+[1. Prefácio](#1-prefácio)
+[2. Resumo do projeto](#2-resumo-do-projeto)
+[3. Linguagem utilizada](#3-linguagem-utilizada)
+[4.Considerações Finais](#5-considerações-finais)
 
 ***
 
@@ -46,4 +46,6 @@ Foram utilizadas HTML 5, CSS 3 e JavaScript, sendo este separado em index.js e c
 
 ## 4. Consideraçõs Finais
 
+O produto para estar concluído precisa de algumas implementações, que no caso não serão feitas agora. O induito é ajudar a pessoas que estão passando por essa situação e consigam sair dessa situação que prejudica não só o relacionamento, mas a saúde emocional e física.
+E lembre-se de ajudar alguém que está passando por essa situação, é facil enfrentar, mas sozinho tudo piora.
 
