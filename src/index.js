@@ -2,6 +2,7 @@
 document.getElementById("btn-enviarCode").addEventListener("click", giveEncode);
 document.getElementById("btn-enviarDecode").addEventListener("click", giveDecode);
 
+// Função de botão de Codificar
 function giveEncode() {
   let offsetEncode = Number(document.getElementById("offsetEncode").value);
   let inputEncode = document.getElementById("inputEncode").value;
@@ -9,6 +10,7 @@ function giveEncode() {
   document.getElementById("resultEncode").innerHTML = `<p> Sua mensagem codificada é: ${resultEncode} </p>`;
 }
 
+// Função de botão de Decodificar
 function giveDecode() {
   let offsetDecode = Number(document.getElementById("offsetDecode").value);
   let inputDecode = document.getElementById("inputDecode").value;
